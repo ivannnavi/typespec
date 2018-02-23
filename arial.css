@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-kerning: normal;
+}
+
+#head {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: -0.05em;
+  line-height: 0.9em;
+  margin: 0.1em;
+  text-indent: 1em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.normal h3 {
+  font-weight: lighter;
+}
+
+.da {
+  font-size: 1em;
+}
+
+.zhong {
+  font-size: 0.75em;
+}
+
+.xiao {
+  font-size: 0.625em;
+}
+
+hr {
+  margin: 1.5em 0 1.5em 0;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+.intext {
+  text-indent: 2.5em;
+}
+
+.h3 {
+  font-size: 1.25em;
+}
+
+@media (max-width: 800px) {
+  .h3 {
+    font-size: 0.95em;
+  }
+  .intext {
+    text-indent: 1em;
+  }
+  #head {
+    text-indent: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .h3 {
+    font-size: 0.9em;
+  }
+  .intext {
+    text-indent: 0;
+  }
+  #head {
+    text-indent: 0;
+  }
+}
